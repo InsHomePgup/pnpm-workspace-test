@@ -1,0 +1,27 @@
+{
+  "name": "bluewhale-ui-monorepo",
+  "version": "1.0.0",
+  "description": "BlueWhale UI Library - Monorepo for Vue 3 components",
+  "main": "index.js",
+  "scripts": {
+    "build": "pnpm -r build",
+    "build:lib": "pnpm --filter vue-ui-lib build",
+    "dev:lib": "pnpm --filter vue-ui-lib dev",
+    "dev:demo": "pnpm --filter vite-project dev",
+    "build:demo": "pnpm --filter vite-project build",
+    "type-check": "pnpm -r type-check",
+    "clean": "pnpm -r exec rm -rf dist node_modules",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vue",
+    "ui",
+    "components",
+    "bluewhale",
+    "monorepo",
+    "typescript"
+  ],
+  "author": "BlueWhale Team",
+  "license": "ISC",
+  "packageManager": "pnpm@10.15.0"
+}
