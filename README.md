@@ -227,7 +227,6 @@ pnpm run dev:lib
 
 - [pnpm Workspace 官方文档](https://pnpm.io/workspaces)
 - [Monorepo 最佳实践](https://monorepo.tools/)
-- [Vue 3 组件库开发指南](https://vuejs.org/guide/extras/composables.html)
 
 ---
 
